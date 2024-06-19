@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 import hbs from 'nodemailer-express-handlebars';
 
 const app = express();
-const port = process.env.port || 5000;
+const port = process.env.PORT || 5000;
 
 dotenv.config();
 
